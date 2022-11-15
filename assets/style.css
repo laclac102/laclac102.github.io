@@ -1,0 +1,177 @@
+
+/* Menu Bar */
+.menu-bar__container {
+    display: block;
+    position: fixed;
+    background-color: #ff8dcd;
+    height: 100%;
+    width: 180px;
+    padding: 0;
+    margin-top: 0;
+}
+.menu-bar__container--items {
+    display: block;
+    position: relative;
+    background-color: #ff8dcd;
+    color: #151e7b;
+    margin: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu-bar__container--items:hover {
+    background-color: #5ccffd;
+    color: white;
+}
+.menu-bar__container--items:active {
+    background-color: #5ccffd;
+    color: black;
+}
+ul {
+    list-style-type: none;
+}
+.body {
+    display: absolute;
+    margin-left: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+body h1 {
+    color: #5ccffd;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.fullname {
+    color: #5ccffd;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+body h2 {
+    text-align: center;
+    color: #151e7b;
+    font-size: 20px;
+}
+body h3,h4 {
+    color: #ff8dcd;
+    font-size: 17px;
+}
+.bx {
+    color: #151e7b
+}
+.description {
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+/* Body
+Home */
+.typewriter {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 2px solid #151e7b; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  .avatar {
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #151e7b; }
+  }
+
+  /* contact */
+.contact .container {
+    display: flex;
+    justify-content: center;
+}
+.contact .container i {
+    margin-inline: 1.5rem; 
+}
+
+/* experiences */
+#experiences .container {
+    display: flex;
+    /* justify-content: stretch; */
+}
+.icon {
+    background-color: #5ccffd;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.line {
+    width: 1px;
+    background-color: #5ccffd;
+    margin-left: 8px;
+}
+.table {
+    display: flex;
+}
+.job {
+    margin-left: 35px;
+}
+.time-point {
+    display: flex;
+    font-size: small;
+    font-style: oblique;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#ta ul {
+    font-weight:bold;
+}
+#ta li {
+    font-weight: normal;
+    margin-left: 15px;
+}
+/* skills */
+.skills .container {
+    display: block;
+    background-color: #5ccffd;
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px;
+    color:#151e7b;
+}
+.skills p {
+    color:#ff8dcd;
+    font-weight: bold;
+    font-size: medium;
+}
+/* honors */
+.honors-content {
+    margin-left: 35px;
+}
