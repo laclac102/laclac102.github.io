@@ -39,6 +39,10 @@ body {
     background-color: #5ccffd;
     color: black;
 }
+.menu-bar__container--items.active {
+    background-color: #5ccffd;
+    color: black;
+}
 ul {
     list-style-type: none;
 }
@@ -206,5 +210,6 @@ Home */
         padding-top: 10px;
         padding-bottom: 10px;
         height: 100%;
+        white-space: nowrap;
     }
 }

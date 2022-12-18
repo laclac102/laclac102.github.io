@@ -3,11 +3,12 @@
     <head>
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <link rel="stylesheet" href="assets/style.css">
-      <script src="assets/main.js"></script>
+    </head>
+    <body>
       <div class="menu-bar">
         <ul class="menu-bar__container">
           <li><a href="#home" class="menu-bar__container--items active"><i class='bx bx-home-alt bx-sm'></i>  Home</a></li>
-          <li><a href="#about" class="menu-bar__container--items"><i class='bx bx-info-circle bx-sm'></i>  About</a></li>
+          <!-- <li><a href="#about" class="menu-bar__container--items"><i class='bx bx-info-circle bx-sm'></i>  About</a></li> -->
           <li><a href="#experiences" class="menu-bar__container--items"><i class='bx bx-briefcase bx-sm'></i> Experiences</a></li>
           <li><a href="#education" class="menu-bar__container--items"><i class='bx bxs-school bx-sm'></i> Education</a></li>
           <li><a href="#skills" class="menu-bar__container--items"><i class='bx bx-code-alt bx-sm'></i>  Skills</a></li>
@@ -15,10 +16,9 @@
           <li><a href="#languages" class="menu-bar__container--items"><i class='bx bx-message-rounded bx-sm'></i>  Languages</a></li>
         </ul>
       </div>
-    </head>
-    <body>
-      <section class='home' id="home">
-        <section class="about" id="about">
+
+      <div class='home' id="home">
+        <section class="about" id="home">
           <div>
             <h2 class="fullname">Phan Vo Thu Nga (Angelica)
             </h2>
@@ -36,32 +36,32 @@
           </div>
           </div>
         </section>
-        <section class="experiences" id="experiences"><h1>Experiences</h1>
-        <div class="container">
-          <div class="timeline">
-            <div class="time-point">
-              <div class="icon"></div>
-              <div>Jan 2022 - Present</div>
-            </div>
-            <div class="table">
-              <div class="line"></div>
-              <div class="job" id="zymo">
-              <h3>Bioinformatician</h3>
-              <p>Zymo Research Corp </p>
-                <span>Ho Chi Minh City, Vietnam</span>
-                <ul>
-                  <li>Generate and deliver RNA sequencing, DNA methylation sequencing analysis results by   Nextflow pipelines at scale in AWS cloud environment.</li>
-                  <li>Contribute to improvement RNA sequencing pipeline
-                    Develop metagenomic pipelines using Nextflow</li>
-                  <li>Visualize and generate report using MultiQC 
-                  </li>
-                  <li>Tools: Nextflow, Docker, Git, MultiQC, FastQC, Cutadapt, Trimgalore, DADA2, QIIME2,   FeatureCounts, DESEQ2, etc.
-                  </li>
-                  <li>Language: Python (mainly), R, HTML, JS</li>
-                </ul>
+        <section class="experiences" id="experiences">
+          <h1>Experiences</h1>
+          <div class="container">
+            <div class="timeline">
+              <div class="time-point">
+                <div class="icon"></div>
+                <div>Jan 2022 - Present</div>
               </div>
-            </div>
-            
+              <div class="table">
+                <div class="line"></div>
+                <div class="job" id="zymo">
+                <h3>Bioinformatician</h3>
+                <p>Zymo Research Corp </p>
+                  <span>Ho Chi Minh City, Vietnam</span>
+                  <ul>
+                    <li>Generate and deliver RNA sequencing, DNA methylation sequencing analysis results by   Nextflow pipelines at scale in AWS cloud environment.</li>
+                    <li>Contribute to improvement RNA sequencing pipeline
+                      Develop metagenomic pipelines using Nextflow</li>
+                    <li>Visualize and generate report using MultiQC 
+                    </li>
+                    <li>Tools: Nextflow, Docker, Git, MultiQC, FastQC, Cutadapt, Trimgalore, DADA2, QIIME2,   FeatureCounts, DESEQ2, etc.
+                    </li>
+                    <li>Language: Python (mainly), R, HTML, JS</li>
+                  </ul>
+                </div>
+              </div>
           </div>
         </div>
         <div class="container">
@@ -88,7 +88,6 @@
               </div>
             </div> 
           </div>
-
         </div>
         <div class="container">
           <div class="timeline">
@@ -210,7 +209,8 @@
             <p>IELTS: 6.5</p>
           </div>
         </section>
-      </section>
+      </div>
+      <script src="assets/main.js"></script>
     </body>
     <footer>
 
