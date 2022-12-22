@@ -28,13 +28,14 @@ body {
     width: 40px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: fixed;
     top: 5px;
     left: 10px;
     z-index: 1;
 }
-
+.menu-bar-icon:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .bar1, .bar2, .bar3  {
     position: relative;
     background-color: #1B4965;
