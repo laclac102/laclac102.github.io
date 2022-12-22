@@ -25,3 +25,15 @@ window.addEventListener("scroll", function () {
 		}
 	});
 });
+
+const menuIcon = document.querySelector(".menu-bar-icon");
+const menuContainer = document.querySelector(".menu-bar__container");
+console.log(menuIcon);
+menuIcon.addEventListener("click", () => {
+	menuIcon.classList.toggle("change");
+	if (menuContainer.style.display == "none") {
+		menuContainer.style.display = "flex";
+	} else { 
+		menuContainer.style.display = "none";
+	}
+})
