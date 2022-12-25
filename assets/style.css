@@ -8,6 +8,9 @@
 body {
     margin: 0;
 }
+section {
+    height: 100vh;
+}
 /* Menu Bar */
 .menu-bar__container {
     position: fixed;
@@ -127,9 +130,10 @@ body h3,h4 {
 }
 .description {
     font-size: 20px;
-    word-spacing: 5px;
-    letter-spacing: 2px;
+    /* word-spacing: 5px; */
+    /* letter-spacing: 1px; */
     line-height: 30px;
+    text-align: justify;
 }
 /* Body
 Home */
